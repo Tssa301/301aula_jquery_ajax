@@ -16,6 +16,7 @@ function consultaCep(){
             document.getElementById('uf').innerHTML = response.uf; */
 
             //shortest path
+            $('#titulo_cep').html('CEP' + response.cep);
             $('#logradouro').html(response.logradouro);
             $('#bairro').html(response.bairro);
             $('#localidade').html(response.localidade);
